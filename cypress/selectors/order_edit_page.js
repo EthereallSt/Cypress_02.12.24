@@ -153,7 +153,7 @@ export const orderEditPage = {
   goToNextOrderBtn:
     '//*[contains(@class,"MuiGrid-item")]//*[text()="Go To Next Order"]',
   goToNextOrderButton: ".MuiGrid-container div button",
-  orderNumber: '//*[contains(text(),"Soapbox Order #")]',
+  orderNumber: '//*[contains(text()," Order #")]',
   fulfillBtn:
     '[aria-label="split button"] .MuiButton-containedPrimary:nth-child(1)',
 
